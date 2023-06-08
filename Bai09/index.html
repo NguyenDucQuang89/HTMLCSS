@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Structure</title>
+    <title>Grouping form Elements</title>
+    <title>HTML5 Date Input</title>
+    <title>HTML5 Email Input</title>
+    <title>HTML5 Form Validation</title>
+    <title>HTML5 Placeholder</title>
+    <title>HTML5 Search Input</title>
+    <title>HTML5 URL Input</title>
+</head>
+<body>
+    <form action="http://www.http://example.com/subscribe.phb" method="get">
+        <p>This is where the form controls will appear</p>
+    </form>
+    <form action="http://www.http://example.com/subscribe.phb">
+        <fieldset>
+            <legend>Contract delails</legend>
+            <label>Email:<br /><input type="text" name="email" /></label><br />
+            <label>Mobile:<br /><input type="text" name="mobile" /></label><br />
+            <label>Telephone:<br /><input type="text" name="telephone" /></label><br />
+        </fieldset>
+    </form>
+    <form action="http://www.http://example.com/bookings/" method="post">
+        <label for="username">Departure date:</label>
+        <input type="date" name="depart" />
+        <input type="submit" value="Submit" />
+    </form>
+    <form action="http://www.http://example.com/subscribe.phb">
+        <p>Please enter your email address</p>
+        <input type="email" name="email" >
+        <input type="submit" value="Submit" />
+    </form>
+    <form action="http://www.http://example.com/login/" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required="repuired" /><br />
+        <label for="password">Password :</label>
+        <input for="password" name="password" id="password" required="repuired" />
+        <input type="submit" value="Submit" />
+    </form>
+    <form action="http://www.http://example.com/search.phb">
+        Search:<br />
+        <input type="search" name="search" placeholder="Enter keyword" />
+        <input type="submit" value="Submit" />
+    </form>
+    <form action="http://www.http://example.org/search.phb" >
+        <p>Search:</p>
+        <input type="search" name="search" />
+        <input type="submit" value="Search" />
+    </form>
+    <form action="http://www.http://example.org/profile.phb">
+        <p>Please enter your website address:</p>
+        <input type="url" name="website" />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
