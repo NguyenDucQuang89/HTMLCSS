@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+.menu a{
+    width: 100%;
+    padding: 5% 1%;
+    margin:0 7.05%;
+    
+}
+nav ul li{
+    margin-top: 50px;
+    text-decoration: none;
+    border:1px solid black;
+    display:inline;
+
+}
+#wrapper{
+    border: 1px solid black;
+    width: 50%;
+    margin:0 25%;
+    
+}
+#header{
+    text-align: center;
+    color:white;
+    background-color: rgb(71, 68, 68);
+}
+#sidebar{
+    width: 50%;
+    height: 100%;
+    border:1px solid black;
+
+}
+#content{
+ width: 25%;
+ display: inline;
+ border: 1px solid black;
+}
+div.main
+    {
+        float:left;
+        display: inline-flex;
+        height: 300px;
+        width: 20%;
+        border: 1px solid rgb(0, 17, 255);
+        margin-left: 25%;
+    
+    }
+    div.main1
+    {
+        height: 300px;
+        width: 29.8%;
+        border: 1px solid rgb(0, 17, 255);
+        display: inline-block;
+    }
+    div.main2
+    {
+        width: 100%;
+        height: 149px;
+        border: 1px solid rgb(0, 17, 255);
+        display:  flex;
+    
+    }
