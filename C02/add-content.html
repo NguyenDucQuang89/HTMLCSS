@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Constructive &amp; Co.</title>
+    <link rel="stylesheet" href="css/c02.css" />
+  </head>
+  <body>
+    <h1>Nhập điểm môn học</h1>
+    <script src="js/add-content.js"></script>
+    <form>
+        <label for="math">Toán:</label>
+        <input type="number" step="0.01" id="math" required>
+        <label for="literature">Văn :</label>
+            <input type="number" step="0.01" id="literature" required>
+        <label for="english">Anh :</label>
+        <input type="number" step="0.01" id="english" required>
+       <input type="button" value="Tính tổng: " onclick="calculateTotal()">
+        <div id="result"></div>
+    </form>
+  </body>
+</html>
