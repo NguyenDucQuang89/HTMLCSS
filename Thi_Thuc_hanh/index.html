@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    
     <title>Website</title>
 </head>
 <body>
@@ -14,35 +15,42 @@
         <nav class="navbar">
           <div class="navbar__logo">
             <img src="images/QN.jpg" alt="" />
-            <h1>Luôn luôn lắng nghe, luôn luôn thấu hiểu</h1>
-          </div>
+            <h1>Luôn luôn lắng nghe, luôn luôn thấu hiểu</h1>  
+        </div>
         </nav>
     </header>
     <section id="banner">
       <div class="container">
         <div class="banner__img">
-          <img src="images/baner1.jpg"/>
+          <img src="images/background-banner.jpeg"/>
         </div>
         </div>
         <div id="wrapper">
             <h1>Đăng ký thông tin người dùng</h1>
             <form>
+                <form id="contact">
                 <table>
                     <tr>
                         <td>Họ và Tên</td>
-                        <td><input type="text" name=""></td>
+                        <td><input id="name" type="text" name="name" onblur="checkten()"></td>
                     </tr>
+                    <div id="feedback"></div>
                     <tr>
                         <td>Email</td>
-                        <td><input type="email" name=""></td>
+                        <td><input type="email" name="email"></td>
                     </tr>
                     <tr>
                         <td>Phone</td>
-                        <td><input type="text" name=""></td>
+                        <td><input type="text" name="phone"></td>
                     </tr>
                     <tr>
                         <td>Giới tính</td>
-                        <td><input type="Giới tính" name=""></td>
+                        <td>
+                            <select>
+                                <option value="1">Nam</option>
+                                <option value="1">Nữ</option>
+                            </select>
+                        </td>
                     </tr>
                     <tr>
                         <td>Sở thích</td>
@@ -61,14 +69,14 @@
                         <td><input type="Giới thiệu bản thân" name=""></td>
                     </tr>
                 </table>
-                <footer id="footer">
-                    <div class="container">
-                      <div class="footer__heading">
-                        <h1>Nguyễn Đức Quảng</h1>
-                          <a href="mailto:quang89hd@gmail.com">
-                            <i class="mail"></i>
-                            <p>Quang89hd@gmail.com</p>
-                          </a>
-                        </div>
-</body>
+                <button type="submit" class="btn btn-primary">Gửi</button>
+            </form>
+            <div id="thong_bao"></div>
+                <footer>
+                    <div class=box1>Nguyễn Đức Quảng</div>
+                    <div class=box2>quang89hd@gmail.com</div>
+                    <div class=box3>Lop T:2305M</div>
+                </footer>
+                <script src="js/main.js"></script>
+</body>  
 </html>
