@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>Website</title>
+</head>
+<body>
+    <section id="overlay"></section>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <img src="images/QN.jpg" alt="" />
+            <h1>Luôn luôn lắng nghe, luôn luôn thấu hiểu</h1>  
+        </div>
+        </nav>
+    </header>
+    <section id="banner">
+      <div class="container">
+        <div class="banner__img">
+          <img src="images/background-banner.jpeg"/>
+        </div>
+        </div>
+        <p>Dang Ky Thong Tin Nguoi Dung</p>
+    <form id="contact">
+    <div class="box3">
+        <script src="js/test.js"></script>
+        <label for="name">Ho va ten:</label>
+        <div id="feedback"></div>
+        <input type="text" id="name" onblur="checkten()" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" onblur="checkemail()" required>
+        <label for="phone">Phone:</label>
+        <div id="feedbackphone"></div>
+        <input type="text" id="phone" onblur="checkphone()" required>
+    </div>
+    <label for="phone">Gioi tinh:</label>
+    <input type="radio" id="nam" name="gioitinh" value="nam">
+<label for="nam">Nam</label>
+<input type="radio" id="nu" name="gioitinh" value="nu">
+<label for="nu">Nu</label><br>
+<label for="phone">So thich:</label>
+<input type="checkbox" id="thethao" name="thethao">
+      <label for="scales">The thao</label>
+      <input type="checkbox" id="phimanh" name="phimanh">
+      <label for="scales">Phim anh</label>
+      <input type="checkbox" id="docsach" name="docsach">
+      <label for="scales">Doc sach</label>
+      <input type="checkbox" id="amnhac" name="amnhac">
+      <label for="scales">Am nhac</label>
+      <input type="checkbox" id="khac" name="khac">
+      <label for="scales">Khac</label>
+      <br>
+      <label for="gioithieu">Gioi thieu ban than:</label>
+      <br>
+<textarea id="gioithieu" name="gioithieu" rows="4" cols="50">
+</textarea>
+<br>
+<button type="submit" class="btn btn-primary">Gửi</button>
+        </form>
+                <footer>
+                    <div class=box1>Nguyễn Đức Quảng</div>
+                    <div class=box2>quang89hd@gmail.com</div>
+                    <div class=box4>Lop T:2305M</div>
+                </footer>
+                <script src="js/main.js"></script>
+</body>  
+</html>
