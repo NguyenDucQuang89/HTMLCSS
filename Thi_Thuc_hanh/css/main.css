@@ -1,0 +1,101 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  color: gray;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+button {
+  text-align: center;
+  color: #fff;
+  background-color: gray;
+  padding: 0.8rem 2.5rem;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+}
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 4;
+  display: none;
+}
+
+#overlay.show {
+  display: initial;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.navbar__logo img {
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
+}
+
+.navbar__btn {
+  font-size: 1rem;
+  background-color: green;
+  margin-left: 45px;
+}
+#banner {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.banner__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+  .banner__img {
+    width: 60%;
+  }
+  #wrapper {
+    position: relative;
+    overflow-x: hidden;
+    margin-top: 15em;
+  }
