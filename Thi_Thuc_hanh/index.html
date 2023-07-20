@@ -25,57 +25,47 @@
           <img src="images/background-banner.jpeg"/>
         </div>
         </div>
-        <div id="wrapper">
-            <h1>Đăng ký thông tin người dùng</h1>
-            <form>
-                <form id="contact">
-                <table>
-                    <tr>
-                        <td>Họ và Tên</td>
-                        <td><input id="name" type="text" name="name" onblur="checkten()"></td>
-                    </tr>
-                    <div id="feedback"></div>
-                    <tr>
-                        <td>Email</td>
-                        <td><input type="email" name="email"></td>
-                    </tr>
-                    <tr>
-                        <td>Phone</td>
-                        <td><input type="text" name="phone"></td>
-                    </tr>
-                    <tr>
-                        <td>Giới tính</td>
-                        <td>
-                            <select>
-                                <option value="1">Nam</option>
-                                <option value="1">Nữ</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Sở thích</td>
-                        <td>
-                        <select>
-                            <option value="1">Thể Thao</option>
-                            <option value="1">Phim ảnh</option>
-                            <option value="1">Đọc sách</option>
-                            <option value="1">Âm nhạc</option>
-                            <option value="1">Khác</option>
-                        </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Giới thiệu bản thân</td>
-                        <td><input type="Giới thiệu bản thân" name=""></td>
-                    </tr>
-                </table>
-                <button type="submit" class="btn btn-primary">Gửi</button>
-            </form>
-            <div id="thong_bao"></div>
+        <p>Dang Ky Thong Tin Nguoi Dung</p>
+    <form id="contact">
+    <div class="box3">
+        <script src="js/test.js"></script>
+        <label for="name">Ho va ten:</label>
+        <div id="feedback"></div>
+        <input type="text" id="name" onblur="checkten()" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" onblur="checkemail()" required>
+        <label for="phone">Phone:</label>
+        <div id="feedbackphone"></div>
+        <input type="text" id="phone" onblur="checkphone()" required>
+    </div>
+    <label for="phone">Gioi tinh:</label>
+    <input type="radio" id="nam" name="gioitinh" value="nam">
+<label for="nam">Nam</label>
+<input type="radio" id="nu" name="gioitinh" value="nu">
+<label for="nu">Nu</label><br>
+<label for="phone">So thich:</label>
+<input type="checkbox" id="thethao" name="thethao">
+      <label for="scales">The thao</label>
+      <input type="checkbox" id="phimanh" name="phimanh">
+      <label for="scales">Phim anh</label>
+      <input type="checkbox" id="docsach" name="docsach">
+      <label for="scales">Doc sach</label>
+      <input type="checkbox" id="amnhac" name="amnhac">
+      <label for="scales">Am nhac</label>
+      <input type="checkbox" id="khac" name="khac">
+      <label for="scales">Khac</label>
+      <br>
+      <label for="gioithieu">Gioi thieu ban than:</label>
+      <br>
+<textarea id="gioithieu" name="gioithieu" rows="4" cols="50">
+</textarea>
+<br>
+<button type="submit" class="btn btn-primary">Gửi</button>
+        </form>
                 <footer>
                     <div class=box1>Nguyễn Đức Quảng</div>
                     <div class=box2>quang89hd@gmail.com</div>
-                    <div class=box3>Lop T:2305M</div>
+                    <div class=box4>Lop T:2305M</div>
                 </footer>
                 <script src="js/main.js"></script>
 </body>  
