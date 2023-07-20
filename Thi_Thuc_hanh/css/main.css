@@ -17,3 +17,16 @@ footer{
         float:right;
         font-size: 15px;
     }
+    div.banner__img img {
+        width: 60%;
+    }
+    div.logo
+    {
+        display: inline;
+    }
+    div.logo img{
+        width: 10%;
+    }
+    h1{
+        display: inline;
+    }
