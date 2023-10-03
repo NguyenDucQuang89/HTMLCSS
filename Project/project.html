@@ -4,152 +4,305 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Project</title>
+    <title>Haier Stories</title>
 </head>
 <body>
     <header>
-        <picture class="image">
-            <img width="1920" height="400" sizes="(min-width: 1440px) 1440px, 100vw" src="images/catalogue.jpg" alt="blog-intro-image">
-            <h1 class="intro__title mb-0">Haier Stories</h1>
-        </picture>
+        <div class="container-slider">
+            <img src="images/catalogue.jpg" alt="Slider Image" class="slider-image">
+            <div class="slider-div-title">
+                <h6 class="slider-nav"><a href="#">Home</a> / Haier Stories</h6>
+                <h1 class="slider-title">Haier Stories</h1>
+            </div>
+        </div>
         <div class="text-center">
-            <p>
-                The world of Haier is filled with innovation, style, quality, and performance. Meticulous attention to detail and ongoing research are the elements that connect Haier's vision to your life philosophy, the thread that connects your time in both your private and public life.
-                <br>
-                This space is dedicated to you and your passions, to share timeless classics and the latest trends in food, fashion, and design. Enter Haier's universe and discover exclusive content created just for you.
-            </p>
+        <div class="container-text mt-3 mb-3 mx-auto">
+            <p>The Haier world is made up of innovation, style, quality, and performances. Careful attention to details and continuous research are the elements that connect Haier's vision to your life philosophy, the fil rouge that links your time both in private and public life.
+            <br>
+            This space is dedicated to you and to your passions, to tell you about the timeless evergreens and the latest trends in food, fashion, and design. Enter Haier's universe and discover special contents created only for you.</p>
+        </div>
         </div>
     </header>
-
-    <section class="section haier-stories">
-        <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <div class="category-filters">
-                        <button class="category-filters_toggle d-md-none"> 
-                            All
-                            <span></span>
-                        </button>
+                        <button class="category-filters_toggle d-md-none">All</button>
                         <ul class="category-filters_list d-md-flex justify-content-center">
                             <li class="category-filters_item" data-category="all">
-                                <button class="category-filters_link">All</button>
+                                <button name="all" class="category-filters_link category-filters_link-selected active-category">All</button>
                             </li>
                             <li class="category-filters_item" data-category="design">
-                                <button class="category-filters_link">Design</button>
+                                <button name="design" class="category-filters_link">Design</button>
                             </li>
                             <li class="category-filters_item" data-category="gourmet">
-                                <button class="category-filters_link">Gourmet</button>
+                                <button name="gourmet" class="category-filters_link">Gourmet</button>
                             </li>
-                            <li class="category-filters_item" data-category="trendsetter">
-                                <button class="category-filters_link">Trend Setter</button>
+                            <li class="category-filters_item" data-category="trend-setter">
+                                <button name="trend-setter" class="category-filters_link">Trend Setter</button>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="list-items-link">
-                            <img src="images/img_blog_august_induction_hobs.jpg" alt="" class="image-item">
-                            <h3 class="image-label">The Benefits of Induction Hobs with Gas Burners</h3>
-                            <p>Thinking about buying an induction hob with a gas burner? Here’s the Haier guide to the benefits of having both gas and induction on one appliance.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="list-items-link">
-                                    <img src="images/img_blog_august_washer_dryer.jpg" alt="" class="image-item">
-                                    <h3 class="image-label">Washer Dryer Combo Machine: The Complete Guide</h3>
-                                    <p> Need a combined washer and dryer? Don't worry: find out everything you need to know in this Haier article and choose the one that's right for you!</p>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="list-items-link">
-                                    <img src="images/img_blog_august_fridge_freezer.jpg" alt="" class="image-item">
-                                    <h3 class="image-label">What Is an Integrated Fridge Freezer?</h3>
-                                    <p>Ever asked ‘what is an integrated fridge freezer’? Get the full lowdown and find out if an integrated option is right for you with our handy guide.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="container">
+        <div class="box-container">
+     
+           <div class="box">
+              <div class="image">
+                 <img src="images/Design1.jpg" alt="">
+              </div>
+              <div class="content">
+                 <h3>Interior design trends: the latest furnishing trends</h3>
+                    <p>Stay abreast of the latest interior design trends!</p>
+                 <a href="#" class="btn">read more</a>
+              </div>
+           </div>
+     
+           <div class="box">
+              <div class="image">
+                 <img src="images/Design2.jpg" alt="">
+              </div>
+              <div class="content">
+                 <h3>How to design a smart home? Essential appliances</h3>
+                 <p> How to create a smart home from scratch with only 5 connected appliances</p>
+                 <a href="#" class="btn">read more</a>
+              </div>
+           </div>
+     
+           <div class="box">
+              <div class="image">
+                 <img src="images/Design3.jpg" alt="">
+              </div>
+              <div class="content">
+                 <h3>Hi-tech kitchen: what is and why it is the future</h3>
+                 <p>Everything about hi-tech kitchens: from benefits to operation to smart appliances</p>
+                 <a href="#" class="btn">read more</a>
+              </div>
+           </div>
+     
+           <div class="box">
+              <div class="image">
+                 <img src="images/Design4.jpg" alt="">
+              </div>
+              <div class="content">
+                 <h3>Furnishing your dining room: contemporary style ideas</h3>
+                 <p>Ideas and tips on how to furnish your contemporary style dining room.</p>
+                 <a href="#" class="btn">read more</a>
+              </div>
+           </div>
+     
+           <div class="box">
+              <div class="image">
+                 <img src="images/Design5.jpg" alt="">
+              </div>
+              <div class="content">
+                 <h3>An American-style kitchen, furnishing tips</h3>
+                 <p>How to furnish an American-style kitchen, ideas and solutions</p>
+                 <a href="#" class="btn">read more</a>
+              </div>
+           </div>
+     
+           <div class="box">
+              <div class="image image-design">
+                 <img src="images/Design6.jpg" alt="Design Image">
+              </div>
+              <div class="content">
+                 <h3>Lighting, kitchens, and interior design</h3>
+                 <p>Benefits from elegant, eco-sustainable, and high-tech products</p>
+                 <a href="#" class="btn">read more</a>
+              </div>
+           </div>
+     
+           <div class="box">
+              <div class="image">
+                 <img src="images/Gourmet1.jpg" alt="">
+              </div>
+              <div class="content">
+                 <h3>Smart WiFi oven for the perfect Christmas menu</h3>
+                 <p> Smart WiFi oven and wine cooler: the winning combination to create a first-rate the perfect holiday menu.</p>
+                 <a href="#" class="btn">read more</a>
+              </div>
+           </div>
+     
+           <div class="box">
+              <div class="image">
+                 <img src="images/Gourmet2.jpg" alt="">
+              </div>
+              <div class="content">
+                 <h3>What to eat without turning on the stove? Cold recipes</h3>
+                 <p>Here is what can you eat without turning on the stove!</p>
+                 <a href="#" class="btn">read more</a>
+              </div>
+           </div>
+     
+           <div class="box">
+              <div class="image">
+                 <img src="images/Gourmet3.jpg" alt="">
+              </div>
+              <div class="content">
+                 <h3>How to arrange your fruit and vegetables in the refrigerator Useful tips</h3>
+                 <p>Discover the smart fridge that can help you arrange your fruit and vegetables in the best way.</p>
+                 <a href="#" class="btn">read more</a>
+              </div>
+           </div>
+
+           <div class="box">
+            <div class="image">
+               <img src="images/Gourmet4.jpg" alt="">
             </div>
-            
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="list-items-link">
-                            <img src="images/img_blog_august_fridge_freezer.jpg" alt="" class="image-item">
-                            <h3 class="image-label">Why You Should Buy an Integrated Fridge Freezer with a Water Dispenser</h3>
-                            <p>Thinking about buying an integrated fridge freezer with water dispenser? Find out why one might be right for your kitchen with our latest blog.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="list-items-link">
-                            <img src="images/img_blog_august_washing_machine.jpg" alt="" class="image-item">
-                            <h3 class="image-label">Freestanding Washing Machines: When You Should Buy One</h3>
-                            <p>A freestanding washing machine is a standalone, does not take up too much space and can easily fit into any room: find out which one is right for you!</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="list-items-link">
-                            <img src="images/img_blog_august_washing_machine_motor.jpg" alt="" class="image-item">
-                            <h3 class="image-label">What is Direct Motion technology in washing machines?</h3>
-                            <p>Everything you need to know about Direct Motion technology in Haier washing machines: guaranteeing efficiency and cleanliness at all times!</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="list-items-link">
-                                    <img src="images/bicchieri-febbraio.jpg" alt="" class="image-item">
-                                    <h3 class="image-label">How To Get That Perfect Shine On All Types Of Wine Glasses</h3>
-                                    <p>All types of wine glasses deserve to be spotless, it gives the host satisfaction and ensures the guests are happy. Here’s how to make sure they shine</p>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="list-items-link">
-                                    <img src="images/Quale asciugatrice scegliere_dicembre.jpg" alt="" class="image-item">
-                                    <h3 class="image-label">Which tumble dryer is the right choice?</h3>
-                                    <p>Not all tumble dryers are created equal. It’s time to discover the key most relevant influencing factors when choosing which tumble dryer to buy</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="list-items-link">
-                            <img src="images/regolazione_temperatura_frigorifero.jpg" alt="" class="image-item">
-                            <h3 class="image-label">Adjusting the temperature of a digital refrigerator</h3>
-                            <p>How to adjust the temperature in a digital refrigerator</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="list-items-link">
-                            <img src="images/Menu di Natale abbinamenti vino cibo_dicembre.jpg" alt="" class="image-item">
-                            <h3 class="image-label">Smart WiFi oven for the perfect Christmas menu</h3>
-                            <p>Smart WiFi oven and wine cooler: the winning combination to create a first-rate the perfect holiday menu.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="list-items-link">
-                            <img src="images/decanter_vino.jpg" alt="" class="image-item">
-                            <h3 class="image-label"> The Wine Decanter: Why Every Home Should Have One</h3>
-                            <p>The wine decanter is a valuable addition to any table, regardless of whether the wine is collectable or not. Find out more here and invest in one</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="list-items-link">
-                            <img src="images/Allestimento tavola cena_Ottobre.jpg" alt="" class="image-item">
-                            <h3 class="image-label">Dinner table setting: how to impress any guest</h3>
-                            <p>Getting the dinner table setting right is more than just impressing your guests, it boosts confidence and helps to ensure the event goes smoothly.</p>
-                        </div>
-                    </div>
+            <div class="content">
+               <h3>Gourmet pizza dough recipes signed by Italian chefs</h3>
+               <p>The best gourmet pizza dough recipes signed by Italian chefs</p>
+               <a href="#" class="btn">read more</a>
             </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/Gourmet5.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3> Low-temperature meat cooking in the oven, how to do it </h3>
+               <p>Low-temperature meat cooking, what is it and how to do it at home.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/Gourmet6.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>How to marinate meat</h3>
+               <p>Meat marinades, techniques and useful tips.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/Trend-setter1.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>How To Get That Perfect Shine On All Types Of Wine Glasses</h3>
+               <p>All types of wine glasses deserve to be spotless, it gives the host satisfaction and ensures the guests are happy. Here’s how to make sure they shine.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/Trend-setter2.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Which tumble dryer is the right choice?</h3>
+               <p>Not all tumble dryers are created equal. It’s time to discover the key most relevant influencing factors when choosing which tumble dryer to buy</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/Trend-setter3.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Adjusting the temperature of a digital refrigerator</h3>
+               <p>How to adjust the temperature in a digital refrigerator</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/Design4.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>The Wine Decanter: Why Every Home Should Have One</h3>
+               <p>The wine decanter is a valuable addition to any table, regardless of whether the wine is collectable or not. Find out more here and invest in one</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/Design5.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Dinner table setting: how to impress any guest</h3>
+               <p>Getting the dinner table setting right is more than just impressing your guests, it boosts confidence and helps to ensure the event goes smoothly.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/Design6.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Bacteria on clothes: how to remove it in a washing machine</h3>
+               <p>Eliminate bacteria from clothes and sanitise them in the washing machine</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+     
+        </div>
+     
+        <div id="load-more"> load more </div>
+     
+     </div>
+     
+     <script>
+        let currentCategory = "all";
+
+        // Hàm để ẩn tất cả các thẻ hình ảnh
+        function hideAllImages() {
+            let images = document.querySelectorAll('.image');
+            images.forEach((image) => {
+                image.style.display = 'none';
+            });
+        }
+
+        // Hàm để hiển thị các thẻ hình ảnh dựa trên danh mục được chọn
+        function showImagesByCategory(category) {
+            hideAllImages();
+            if (category === "all") {
+                let imagesToShow = document.querySelectorAll('.image');
+                imagesToShow.forEach((image) => {
+                    image.style.display = 'inline-block';
+                });
+            } else {
+                let imagesToShow = document.querySelectorAll('.image-' + category);
+                imagesToShow.forEach((image) => {
+                    image.style.display = 'inline-block';
+                });
+            }
+        }
+
+        // Xử lý sự kiện khi người dùng nhấp vào nút danh mục
+        document.querySelectorAll('.category-filters_link').forEach((button) => {
+            button.addEventListener('click', (event) => {
+                currentCategory = event.target.getAttribute('name');
+                showImagesByCategory(currentCategory);
+            });
+        });
+
+        // Xử lý sự kiện cho nút "Load More" nếu cần
+        let loadMoreBtn = document.querySelector('#load-more');
+        let currentItem = 6;
+
+        loadMoreBtn.onclick = () => {
+            let boxes = [...document.querySelectorAll('.container .box-container .box')];
+            for (var i = currentItem; i < currentItem + 6; i++) {
+                boxes[i].style.display = 'inline-block';
+            }
+            currentItem += 6;
+
+            if (currentItem >= boxes.length) {
+                loadMoreBtn.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>
